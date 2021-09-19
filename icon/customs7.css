@@ -1,0 +1,222 @@
+@font-face {
+    font-family:'arzhu';
+    src:url('https://cdn.jsdelivr.net/gh/812257301/imgcdn/post/qiuhongkai.ttf'); /* 娣囶喗鏁奸幋鎰稑閻ㄥ嫬鐡ф担锟� */
+    font-display:swap
+}
+
+#page-header {
+    background-color: rgb(0,0,0,0)!important;
+}
+
+#nav .menus_items .menus_item:hover .menus_item_child {
+    left: 10px!important;
+}
+
+#web_bg {
+  /* 鑳屾櫙鍥惧儚鐨勫湴鍧€锛坲rl鎷彿閲岋級  */
+  background: url(https://cdn.jsdelivr.net/gh/812257301/imgcdn@1.0/1.jpg);
+  /* 鑳屾櫙鍥惧儚涓嶉噸澶� */
+  background-repeat: no-repeat;
+  /* 鑳屾櫙鍥惧儚澶у皬 */
+  background-size: cover;
+}
+
+[data-theme="dark"]  
+#web_bg {
+  /* 鑳屾櫙鍥惧儚鐨勫湴鍧€锛坲rl鎷彿閲岋級  */
+  background: url(https://cdn.jsdelivr.net/gh/812257301/imgcdn/icon/bbb265f3bdcf4a849d8a828bd7bcaf2e.png);
+  /* 鑳屾櫙鍥惧儚涓嶉噸澶� */
+  background-repeat: no-repeat;
+  /* 鑳屾櫙鍥惧儚澶у皬 */
+  background-size: cover;
+}
+
+/* 棣栭〉鏂囩珷鍗＄墖 */
+#recent-posts > .recent-post-item{
+    background:rgba(255,255,255, 0.6)!important;
+}
+[data-theme="dark"]  
+  #recent-posts > .recent-post-item{
+    background:rgba(0,0,0, 0.6)!important;
+}
+
+[data-theme="dark"]  
+  .card-widget{
+  background:rgba(0,0,0, 0.7)!important;
+}
+/* 棣栭〉渚ф爮鍗＄墖 */
+.card-widget{
+  background:rgba(255, 255, 255, 0.6)!important;
+}
+h1#site-title {
+    font-family:arzhu!important
+}
+span#subtitle {
+    font-family:arzhu!important
+}
+a#site-name {
+    font-family:arzhu!important
+}
+
+header#page-header.not-home-page {
+    background: 0 0;
+}
+
+div#archive{
+    background-color: rgb(240 241 241 / 60%);
+}
+
+div#category{
+    background-color: rgb(240 241 241 / 60%);
+}
+
+[data-theme="dark"]
+div#category{
+      background: rgba(0, 0, 0, 0.6);
+}
+
+[data-theme='dark'] #web_bg:before, [data-theme='dark'] #footer:before, [data-theme='dark'] #page-header:before {
+      background-color: rgb(0 0 0 / 0%);
+}
+
+[data-theme="dark"]
+  div#archive{
+      background: rgba(0, 0, 0, 0.6);
+}
+
+div#page{
+    background-color: rgb(240 241 241 / 60%);
+}
+
+
+[data-theme="dark"]
+div#page{
+    background: rgba(0, 0, 0, 0.6);
+}
+
+/*鏃堕挓閫忔槑搴�*/
+[data-theme=dark] .card-background {
+    background-color: rgb(255 255 255 / 0%)!important;
+}
+
+[data-theme="dark"]
+  #aside-content .card-widget{
+      background: rgba(0, 0, 0, 0.6);
+    }
+[data-theme="dark"]
+  div#post{
+    background: rgba(0, 0, 0, 0.6);
+    }
+.read-mode #aside-content .card-widget{
+      background: rgba(158, 204, 171, 0.6);
+    }
+div#post{
+    background: rgba(255 255 255 / 60%);
+    }
+[data-theme="dark"]
+  .read-mode #aside-content .card-widget{
+        background: rgba(0, 0, 0, 0.6);
+        color: #ffffff;
+      }
+[data-theme="dark"]  
+  .recent-post-info div#post{
+      background: rgba(0, 0, 0, 0.6);
+      color: #ffffff;
+      }
+[data-theme="dark"]  
+  .read-mode div#post{
+      background: rgba(0, 0, 0, 0.6);
+      color: #ffffff;
+      }
+
+/* 椤佃剼閫忔槑 */
+#footer{
+  background: transparent;
+}
+
+.tk-footer[data-v-c0af544c] {
+    width: 100%;
+    text-align: end;
+    font-size: 0.75em;
+    color: #999999;
+    margin-top: 1em;
+    display: none;
+}
+
+.avatar-img img {
+    height: 110%;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    transition: all 0.5s;
+    object-fit: cover;
+}
+
+/* 婊氬姩鏉� */
+::-webkit-scrollbar {
+  width: 14px;
+  height: 14px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: rgba(73, 177, 245, 0.2);
+  border-radius: 2em;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #49b1f5;
+  background-image: -webkit-linear-gradient(
+    45deg,
+    rgba(255, 255, 255, 0.4) 25%,
+    transparent 25%,
+    transparent 50%,
+    rgba(255, 255, 255, 0.4) 50%,
+    rgba(255, 255, 255, 0.4) 75%,
+    transparent 75%,
+    transparent
+  );
+  border-radius: 2em;
+}
+
+::-webkit-scrollbar-corner {
+  background-color: transparent;
+}
+
+::-moz-selection {
+  color: #fff;
+  background-color: #49b1f5;
+}
+
+svg.icon {
+   width: 1em; height: 1em;
+   /* width鍜宧eight瀹氫箟鍥炬爣鐨勯粯璁ゅ搴﹀拰楂樺害*/
+   vertical-align: -0.15em;
+   fill: currentColor;
+   overflow: hidden;
+   font-size: 24px;
+    /* 鎺у埗鍥炬爣澶у皬*/
+}
+
+/*鏂囩珷椤堕儴鍥鹃€忔槑*/
+#page-header.post-bg:before {
+    background-color: rgba(0,0,0,0)!important;
+}
+#page-header {
+    background-color: rgb(73 177 245 / 0%)!important;
+}
+[data-theme="dark"]
+#page-header {
+    background-color: rgb(73 177 245 / 0%)!important;
+}
+
+[data-theme="dark"]
+.layout > div:first-child:not(.recent-posts) {
+    background: rgb(18 18 18 / 60%);
+}
+
+[data-theme="dark"]
+.xk-card[data-v-185689ea] {
+    display: none!important;
+    background: rgb(44 44 44 / 80%)!important;
+}
